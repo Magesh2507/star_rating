@@ -28,7 +28,7 @@ stars.forEach((star, index) => {
     star.addEventListener("click", () => {
         app.style.display = 'none';
         popup.style.display = 'flex';
-        popupMessage.innerHTML = `Thanks for the ${greetings}-star rating &#128525; `;
+        popupMessage.innerHTML = `Thanks for the ${greetings} star rating &#128525; `;
     })
 })
 
